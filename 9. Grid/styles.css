@@ -1,0 +1,33 @@
+.contenedor{
+    display: grid;
+    background-color: thistle;
+    /* 
+    flex-direction: row o column;
+
+    Unidad de división de elementos en grid
+
+    fr
+
+    */
+    /* grid-template-columns: 100px 20% 100px; */
+    /* grid-template-columns: repeat(numerodevecesqueserepite, tamañodelacolumna) */
+    /* grid-template-columns: repeat(numerodevecesqueserepite, tamañodelacolumna) */
+    grid-template-columns: 40% 20%;
+    grid-template-rows: repeat(6, 20%);
+    
+    /*
+    
+    grid-template-areas: ;
+    grid-areas: ;
+    justify-content: space-around;
+    align-items: center;
+
+    */
+}
+
+.item{
+    background-color: violet;
+    width: 50px;
+    height: 50px;
+    border: 10px solid black;
+}

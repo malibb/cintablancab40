@@ -1,0 +1,38 @@
+.cuadro{
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-image: url("img/gatitos.gif");
+}
+
+.contenedor {
+    background-color: #002868;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 650px;
+}
+
+.inferior{
+    border-bottom: 30px solid white;
+    margin-bottom: 20px;
+}
+
+.superior{
+    border-top: 30px solid white;
+    margin-top:20px;
+}
+
+.derecho{
+    border-right: 30px solid white;
+    margin-right: 40px;
+}
+
+.izquierdo{
+    border-left: 30px solid white;
+}
+
+.grow {
+    flex-grow:2;
+}

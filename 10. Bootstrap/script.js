@@ -1,0 +1,5 @@
+
+
+function abrirAlerta() {
+    $('.alert').alert();
+}
